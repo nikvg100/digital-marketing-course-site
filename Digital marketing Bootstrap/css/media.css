@@ -1,0 +1,228 @@
+/* @media  (max-width:200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100%
+}
+
+  .btn-outer{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    justify-content: center !important;
+  left: 0;
+
+  }
+  .wh-btn,.call{
+    z-index: 10;
+    padding: 0px 0px;
+    font-size: 14px;
+  }
+  .leftimgdacor{
+    position: absolute;
+    top: -50px;
+    width: 50px;
+    
+  }
+  .rightimgdacor{
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+    width: 50px;
+  }
+} */
+
+@media screen and (min-width:200px) and (max-width:991px) {
+  .btn-outer{  
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: white;
+  justify-content: center !important;
+left: 0;
+  }
+  .wh-btn,.call{
+    z-index: 10;
+    padding: 7px 09px;
+    font-size: 14px;
+  }
+  .bannercontent h1{
+    font-size: 28px;
+    font-weight: 700;
+  text-align: center;
+  line-height: 32px;
+  }
+  .bannercontent h1 br
+  {display: none;
+  }
+  .bannercontent h1 span{
+    color: #2699FB;
+  
+  }
+  .bannercontent p,.bannercontent ul li{
+    font-size: 16px;
+
+  }
+  .bannercontent-btn button{
+    font-size: 14px;
+    width: 100%;
+    padding: 7px 0;
+    font-weight: 700;
+
+  }
+  .bannercontent-btn{
+    flex-direction: column;
+  }
+  .bannerform button {
+    width: 100%;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: white;
+    padding:7px 0;
+    font-size: 14px;
+    font-weight: 700;
+   
+  }
+  .bannerform {
+    padding:20px;
+  }
+  
+  .highlights-section h2{
+    font-size: 28px;
+  }
+  .highlights-section p{
+    font-size: 16px;
+  }
+
+  .highlights-section p{
+    font-size: 14px;
+  }
+  .highlights-item h4{
+    font-size: 16px;
+  }
+  .bookfreeclass{
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+      color: white;
+      padding: 5px 10px;
+      font-size: 14px;
+      border-radius: 8px;
+    }
+    .downloadcarriculum{
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+.carrersection h2{
+  font-size: 28px;
+}
+.carrersection p{
+  font-size: 16px;
+}
+.accordionheading h2{
+  font-size: 28px;
+}
+.accordionheading p{
+  font-size: 16px;
+}
+.headofsection h2{
+  font-size: 28px;}
+.headofsection p{
+  font-size: 16px;
+}
+.dotimg{
+  position: absolute;
+  top:-20px;
+  left: -5px;
+  height: 100px;
+  width: 100px;
+}
+.ellips{
+  position: absolute;
+  bottom: -40px;
+right: -15px;
+  height: 100px;
+  width: 100px;
+} 
+
+.certificat-img{
+  position: relative;
+
+}
+.dacorbox h2{
+  font-size: 28px;
+}
+.dacorbox p{
+  font-size: 14px;
+}
+.dacorbox-btn{
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.leftimgdacor{
+  position: absolute;
+  top: -50px;
+  width: 150px;
+  
+}
+.rightimgdacor{
+  position: absolute;
+  right: 0px;
+  bottom: -50px;
+  width: 150px;
+}
+.footerdark p{
+font-size: 16px;
+}
+.copyrightfooter h5{
+font-size: 16px;
+}
+  }
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1170px;
+  }
+}
+
+ /* @media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 80%;
+  }
+  header img{
+    width: 130px;
+  }
+
+  .bannercontent h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .bannercontent p,.bannercontent ul li{
+    font-size: 25px;
+
+  }
+  .bannercontent-btn button{
+    font-size: 30px;
+    width: 50%;
+    padding: 10px 18px;
+    font-weight: 700;
+
+  }
+  .bannerform {
+    padding: 20px;
+  border-radius: 10px;
+  }
+  
+  .bannerform h3 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .bannerform button {
+    width: 100%;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: white;
+    padding: 5px 10px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+  }
+}  */

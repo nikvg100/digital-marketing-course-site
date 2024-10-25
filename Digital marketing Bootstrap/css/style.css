@@ -1,0 +1,263 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* mobil media query */
+
+
+.wh-btn {
+  background-color: white;
+  border: 1px solid #27ae16;
+  padding: 10px 18px;
+  color: #27ae16;
+}
+
+.wh-btn:hover {
+  border: 1px solid #27ae16;
+  background-color: #27ae16;
+  color: azure;
+}
+
+.call {
+  color: white;
+  padding: 10px 18px;
+  background: linear-gradient(to right, #0ACEFE, #2699FB);
+}
+
+.bannercontent p {
+  font-size: 22px;
+}
+
+.bannercontent h1 {
+  font-size: 52px;
+  font-weight: 700;
+
+}
+
+.bannercontent h1 span {
+  color: #2699FB;
+background-image: url('/project/image/Vector\ 63.png');
+background-repeat:no-repeat ;
+background-position: bottom;
+background-size: contain;
+
+}
+
+.bannercontent ul {
+
+  list-style: none;
+}
+
+.bannercontent ul li i {
+  color: #2699FB;
+  padding-right: 5px;
+
+}
+
+.bannercontent ul li {
+  font-size: 22px;
+}
+
+.bannercontent-btn button {
+  width: 50%;
+  padding: 5px 10px;
+  font-size: 22px;
+  border-radius: 8px;
+
+}
+
+.bannercontent-btn button:first-child {
+  background: linear-gradient(to right, #0ACEFE, #2699FB);
+  color: white;
+}
+
+.bannerform {
+  padding: 40px;
+border-radius: 10px;
+}
+
+.bannerform h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bannerform button {
+  width: 100%;
+  background: linear-gradient(to right, #0ACEFE, #2699FB);
+  color: white;
+  padding: 5px 10px;
+  font-size: 22px;
+  border-radius: 8px;
+  border: none;
+}
+.countersection h2{
+  font-size: 30px;
+  font-weight: 700;
+  color: #2699FB;
+}
+.highlights-section{
+  background-color: #F7FAFF;
+}
+.highlights-section h2{
+  font-weight: 700;
+  font-size: 36px;
+color: #0a2134;
+}
+.highlights-section p{
+  font-size: 18px;
+}
+.highlights-item h4{
+  font-size: 20px;
+  font-weight: 600;
+}
+.bookfreeclass{
+background: linear-gradient(to right, #0ACEFE, #2699FB);
+  color: white;
+  padding: 10px 48px;
+  border: none;
+font-weight: 700;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.carrersection h2{
+  font-weight: 700;
+  font-size: 36px;
+color: #0a2134;
+}
+.carrersection p{
+  font-size: 18px;
+}
+.accordionheading h2{
+  font-weight: 700;
+  font-size: 36px;
+color: #0a2134;
+}
+.accordion-section{
+  background-color: #F7FAFF;
+
+}
+.acchead{
+  color: #2699FB;
+}
+.headofsection h2{
+  font-weight: 700;
+  font-size: 36px;
+color: #0a2134;}
+.headofsection p{
+  font-size: 18px;
+}
+.tab-item{
+  color: black;
+}
+.tab-item:active{ 
+  color: black;
+background: rgb(228, 229, 230);
+}
+.tabcontshow ul  {
+  list-style: none;
+}
+.tabcontshow ul li i {
+  color: #2699FB;
+  padding-right: 5px;
+}
+.tabMysystem .nav-pills .nav-link.active, .nav-pills .show> .nav-link{
+  font-weight: 600;
+  background-color: #f2f4f7;
+  color: #0a2134;
+  border-radius: 4px 4px 0px 0px;
+border-bottom:2px solid #2699FB;
+}
+.light-blue-section{
+  background-color: #F7FAFF;
+}
+ .dotimg{
+  position: absolute;
+  top:-25px;
+  left: 50px;
+  height: 200px;
+  width: 200px;
+background-image: url('/project/image/image\ 136.png'); 
+background-repeat: no-repeat;
+background-size: contain;
+}
+.ellips{
+  position: absolute;
+  bottom: -90px;
+  right: -43px;
+  height: 250px;
+  width: 250px;
+background-image: url('/project/image/Ellipse\ 94\ \(1\).png');
+  object-fit: cover;
+  background-size: cover;
+background-repeat: no-repeat;
+
+} 
+
+.certificat-img{
+  position: relative;
+
+}
+.downloadcarriculum
+{
+  background: linear-gradient(to right, #0ACEFE, #2699FB);
+  color: white;
+  padding: 10px 48px;
+  border: none;
+font-weight: 700;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.dacorbox{
+  position: relative;
+  background: linear-gradient(to right,#0ACEFE,#2699FB);
+}
+.dacorbox h2{
+ 
+  font-weight: 700;
+  font-size: 36px;
+color: #ffffff;
+}
+.dacorbox p{
+  font-size: 18px;
+  color: #ffffff;
+}
+.dacorbox-content{
+  width: 50%;
+}
+.dacorbox-btn{
+  box-shadow:  0px 0px 10px 0px,inset 0px 0px 1px ;
+  padding: 10px 48px;
+  border: none;
+font-weight: 700;
+  font-size: 20px;
+  border-radius: 8px;  background-color: #f2f4f7;
+}
+.outerofcontent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftimgdacor{
+  position: absolute;
+  top: -50px;
+  
+}
+.rightimgdacor{
+  position: absolute;
+  right: 0px;
+  bottom: -50px;
+}
+
+.footerdark p {
+  color: #ffffff;
+  font-size: 18px;
+
+}
+.copyrightfooter hr{
+  color: #ffffff;
+}
+.copyrightfooter h5{
+  color: #ffffff;
+
+}
